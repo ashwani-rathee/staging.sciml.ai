@@ -1,16 +1,21 @@
-function hfun_bar(vname)
-  val = Meta.parse(vname[1])
-  return round(sqrt(val), digits=2)
-end
-
-function hfun_m1fill(vname)
-  var = vname[1]
-  return pagevar("index", var)
-end
-
-function lx_baz(com, _)
-  # keep this first line
-  brace_content = Franklin.content(com.braces[1]) # input string
-  # do whatever you want here
-  return uppercase(brace_content)
+function hfun_add_redirects()
+  basepath = Franklin.FOLDER_PATH[]
+  for n in readdir(basepath)
+    endswith(n, ".md") || continue
+    n in ("index.md", "config.md") && continue
+    name = splitext(n)[1]
+    dst = joinpath(basepath, "__site", name * ".html")
+    isfile(dst) && continue
+    s = """
+    <!-- REDIRECT - DO NOT MODIFY-->
+    <!doctype html>
+    <html>
+      <head>
+        <meta http-equiv="refresh" content="0; url=/$name/">
+      </head>
+    </html>
+    """
+    write(dst, s)
+  end
+  return ""
 end
