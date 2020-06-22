@@ -6,12 +6,18 @@ function hfun_add_redirects()
     name = splitext(n)[1]
     dst = joinpath(basepath, "__site", name * ".html")
     isfile(dst) && continue
+    pre = ""
+    prepath = globvar("prepath")
+    if prepath === nothing
+      pre = ""
+    else
+      pre = "/" * strip(prepath, '/')
     s = """
     <!-- REDIRECT - DO NOT MODIFY-->
     <!doctype html>
     <html>
       <head>
-        <meta http-equiv="refresh" content="0; url=/$name/">
+        <meta http-equiv="refresh" content="0; url=$pre/$name/">
       </head>
     </html>
     """
