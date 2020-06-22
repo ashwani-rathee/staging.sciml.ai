@@ -14,12 +14,12 @@ own work added to this list,
 
 ## Press Releases
 
-- [Cornell Chronicle: Digital 'virus' helps researchers map potential spread](https://news.cornell.edu/stories/2020/05/digital-virus-helps-researchers-map-potential-spread)
+- [Cornell Chronicle: Digital ‘virus’ helps researchers map potential spread](https://news.cornell.edu/stories/2020/05/digital-virus-helps-researchers-map-potential-spread)
 - [Phys.org: Digital 'virus' helps researchers map potential spread](https://phys.org/news/2020-05-digital-virus-potential.html)
 - [latronet.gr: Χαρτογράφηση εξάπλωσης CoViD-19 με κινητό τηλέφωνο](https://www.iatronet.gr/eidiseis-nea/epistimi-zwi/news/55544/psifiakos-ios-voitha-erevnites-na-xartografisoyn-pithani-exaplwsi-covid-19.html)
-- [ZDNet: Could a neural network have predicted this pandemic's impact?](https://www.zdnet.com/article/could-a-neural-network-have-predicted-this-pandemics-impact/)
+- [ZDNet: Could a neural network have predicted this pandemic’s impact?](https://www.zdnet.com/article/could-a-neural-network-have-predicted-this-pandemics-impact/)
 - [UQ News: A mathematical framework could help safely ease social distancing](https://www.uq.edu.au/news/article/2020/05/mathematical-framework-could-help-safely-ease-social-distancing)
-- [MIT News: Model quantifies the impact of quarantine measures on Covid-19's spread](http://news.mit.edu/2020/new-model-quantifies-impact-quarantine-measures-covid-19-spread-0416)
+- [MIT News: Model quantifies the impact of quarantine measures on Covid-19’s spread](http://news.mit.edu/2020/new-model-quantifies-impact-quarantine-measures-covid-19-spread-0416)
 - [TechXplore: Machine learning algorithm quantifies the impact of quarantine measures on COVID-19's spread](https://techxplore.com/news/2020-04-machine-algorithm-quantifies-impact-quarantine.html)
 - [COVID-19 simulator could help track virus spread as restrictions eased](https://www.theage.com.au/national/queensland/covid-19-simulator-could-help-track-virus-spread-as-restrictions-eased-20200506-p54qfr.html)
 - [Pfizer uses Julia (SciML) to accelerate simulations of new therapies for metabolic diseases up to 175x](https://juliacomputing.com/case-studies/pfizer.html)
@@ -30,6 +30,7 @@ own work added to this list,
 
 ## Books
 
+- [Statistics with Julia](https://statisticswithjulia.org/)
 - [The Koopman Operator in Systems and Control](https://www.springer.com/gp/book/9783030357122)
     - "All simulations have been performed in Julia, with additional Julia packages: LinearAlgebra.jl, Random.jl, Plots.jl, Lasso.jl, DifferentialEquations.jl"
 
@@ -40,11 +41,11 @@ own work added to this list,
 ## External Blog Posts and Presentations
 
 - [Francesco Martinuzzi: GSoC week 3: Echo State Gaussian Processes](https://martinuzzifrancesco.github.io/posts/03_gsoc_week/)
-- [SCIML: LOGICIELS LIBRES POUR L’APPRENTISSAGE MACHINE SCIENTIFIQUE](https://chimieetjulia.org/e107/news.php?extend.6#)
+- [SCIML: LOGICIELS LIBRES POUR L'APPRENTISSAGE MACHINE SCIENTIFIQUE](https://chimieetjulia.org/e107/news.php?extend.6#)
 - [Fitting the SIR model to Covid-19 fatality data](https://gist.github.com/nlw0/3d80ae106b70704a1aca157a63303ec0)
 - [Francesco Martinuzzi: GSoC week 2: Support Vector Regression in Echo State Networks](https://martinuzzifrancesco.github.io/posts/02_gsoc_week/)
 - [Frank Schäfer: GSoC 2020: High weak order SDE solvers and their utility in neural SDEs](https://frankschae.github.io/post/gsoc2020-high-weak-order-solvers-sde-adjoints/)
-- [Modeling pandemics subject to stochastic uncertainties – A polynomial chaos approach](https://github.com/timueh/PandemicModeling)
+- [Modeling pandemics subject to stochastic uncertainties -- A polynomial chaos approach](https://github.com/timueh/PandemicModeling)
 - [Francesco Martinuzzi: GSoC week 1: lasso, Elastic Net and Huber loss](https://martinuzzifrancesco.github.io/posts/01_gsoc_week/)
 - [Modelling and data analysis tools to study the 2020 COVID-19 outbreak](https://github.com/berndblasius/Covid19)
 - [Kevin Hannay: Differential Equations as a Neural Network Layers](https://towardsdatascience.com/differential-equations-as-a-neural-network-layer-ac3092632255)
@@ -72,7 +73,7 @@ own work added to this list,
 - [Ludovico: Bonding-time, or should I say coding time?](https://nextjournal.com/ludoro/bonding-time-or-should-i-say-coding-time)
 - [StochasticLifestyle: The Essential Tools of Scientific Machine Learning (Scientific ML)](https://www.stochasticlifestyle.com/the-essential-tools-of-scientific-machine-learning-scientific-ml/)
 - [StochasticLifestyle: Neural Jump SDEs (Jump Diffusions) and Neural PDEs](https://www.stochasticlifestyle.com/neural-jump-sdes-jump-diffusions-and-neural-pdes/)
-- [MIT Open Courseware: Modern Differential Equations Solver Software: Where We Are and Where We’re Headed](https://ocw.mit.edu/courses/mathematics/18-335j-introduction-to-numerical-methods-spring-2019/week-3/MIT18_335JS19_lec6.pdf)
+- [MIT Open Courseware: Modern Differential Equations Solver Software: Where We Are and Where We're Headed](https://ocw.mit.edu/courses/mathematics/18-335j-introduction-to-numerical-methods-spring-2019/week-3/MIT18_335JS19_lec6.pdf)
 - [JuliaLang: DiffEqFlux.jl – Julia 的神經微分方程套件](https://julialang.org/blog/2019/04/fluxdiffeq-zh_tw/)
 - [JuliaLang: DiffEqFlux.jl – A Julia Library for Neural Differential Equations](https://julialang.org/blog/2019/01/fluxdiffeq/)
 - [FluxML: Differentiable Control Problems](https://fluxml.ai/2019/03/05/dp-vs-rl.html)
@@ -92,8 +93,8 @@ own work added to this list,
 - [JuliaLang: NeuralNetDiffEq.jl: A Neural Network solver for ODEs](https://julialang.org/blog/2017/10/gsoc-NeuralNetDiffEq/)
 - [StochasticLifestyle: Some Fun With Julia Types: Symbolic Expressions in the ODE Solver](https://www.stochasticlifestyle.com/fun-julia-types-symbolic-expressions-ode-solver/)
 - [JuliaLang: GSoC 2017: Native Julia second order ODE and BVP solvers](https://julialang.org/blog/2017/11/gsoc-ode/)
-- [Yiannis Simillides blog: FEniCS.jl: Second “Approximate” Month](https://ysimillides.github.io/jekyll/update/2018/07/10/second-evaluation.html)
-- [Yiannis Simillides blog: FEniCS.jl: First “Approximate” Month](https://ysimillides.github.io/jekyll/update/2018/06/08/first-month.html)
+- [Yiannis Simillides blog: FEniCS.jl: Second "Approximate" Month](https://ysimillides.github.io/jekyll/update/2018/07/10/second-evaluation.html)
+- [Yiannis Simillides blog: FEniCS.jl: First "Approximate" Month](https://ysimillides.github.io/jekyll/update/2018/06/08/first-month.html)
 - [Mathieu Besançon: DifferentialEquations.jl - part 2: decision from the model](https://matbesancon.github.io/post/2017-12-20-diffeq-julia2/)
 - [Mathieu Besançon: Getting started with DifferentialEquations.jl](https://matbesancon.github.io/post/2017-12-14-diffeq-julia/)
 - [StochasticLifestyle: A Comparison Between Differential Equation Solver Suites In MATLAB, R, Julia, Python, C, Mathematica, Maple, and Fortran](https://www.stochasticlifestyle.com/comparison-differential-equation-solver-suites-matlab-r-julia-python-c-fortran/)

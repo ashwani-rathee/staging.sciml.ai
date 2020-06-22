@@ -1,85 +1,102 @@
 @def title = "Documentation"
 
-# Showcase
+# Documentation and Tutorials
 
-The purpose of this page is to demonstrate the various applications
-where the SciML tools have been employed. If you would like your
-own work added to this list,
+The SciML organization is an opinionated collection of tools for
+scientific machine learning and differential equation modeling. The
+organization provides well-maintained tools which compose together
+as a coherent ecosystem. The following are the relevant resources for
+users interested in the functionality.
+
+## Differential Equations
+
+- [DifferentialEquations.jl documentation](https://docs.sciml.ai/latest/)
+- [DiffEqTutorials](https://github.com/SciML/DiffEqTutorials.jl)
+- [diffeqpy: DifferentialEquations.jl from Python](https://github.com/SciML/diffeqpy)
+- [diffeqr: DifferentialEquations.jl from R](https://github.com/SciML/diffeqr)
+
+These resources cover:
+
+- Discrete equations (function maps, discrete stochastic (Gillespie/Markov)
+  simulations)
+- Ordinary differential equations (ODEs)
+- Split and Partitioned ODEs (Symplectic integrators, IMEX Methods)
+- Stochastic ordinary differential equations (SODEs or SDEs)
+- Random differential equations (RODEs or RDEs)
+- Differential algebraic equations (DAEs)
+- Delay differential equations (DDEs)
+- Mixed discrete and continuous equations (Hybrid Equations, Jump Diffusions)
+- (Stochastic) partial differential equations ((S)PDEs) (with both finite
+  difference and finite element methods)
+
+## Partial Differential Equation Modeling
+
+- [DiffEqOperators.jl (Finite Difference Methods)](https://github.com/SciML/DiffEqOperators.jl)
+- [NeuralNetDiffEq.jl (Physics-Informed Neural Networks)](https://github.com/SciML/NeuralNetDiffEq.jl)
+- [FEniCS.jl](https://github.com/SciML/FEniCS.jl)
+
+## Scientific Machine Learning Model Discovery
+
+- [DiffEqFlux.jl documentation](https://diffeqflux.sciml.ai/dev/)
+- [NeuralNetDiffEq.jl](https://github.com/SciML/NeuralNetDiffEq.jl)
+- [DataDrivenDiffEq.jl documentation](https://datadriven.sciml.ai/dev/)
+- [ReservoirComputing.jl](https://github.com/SciML/ReservoirComputing.jl)
+
+## Surrogate Acceleration and Optimization
+
+- [Surrogates.jl documentation](https://surrogates.sciml.ai/latest/)
+
+## Modeling Languages and Domain-Specific Languages
+
+- [ModelingToolkit.jl documentation](https://mtk.sciml.ai/dev/)
+- [DiffEqBiological.jl](https://github.com/SciML/DiffEqBiological.jl)
+- [ParameterizedFunctions.jl](https://github.com/SciML/ParameterizedFunctions.jl)
+- [NBodySimulator.jl](https://github.com/SciML/NBodySimulator.jl)
+
+## Modeling Tools and Primatives
+
+- [MultiScaleArrays.jl](https://github.com/SciML/MultiScaleArrays.jl)
+- [LabelledArrays.jl](https://github.com/SciML/LabelledArrays.jl)
+- [RecursiveArrayTools.jl](https://github.com/SciML/RecursiveArrayTools.jl)
+
+## Numerical Tools and Primatives
+
+- [ExponentialUtilities.jl: Fast and GPU matrix exponentials](https://github.com/SciML/ExponentialUtilities.jl)
+- [Quadrature.jl: Common interface for quadrature and numerical integration](https://github.com/SciML/Quadrature.jl)
+- [QuasiMonteCarlo.jl](https://github.com/SciML/QuasiMonteCarlo.jl0)
+- [SparsityDetection.jl: Automated Jacobian and Hessian sparsity patterns](https://github.com/SciML/SparsityDetection.jl)
+- [PoissonRandom.jl: Fast Poisson random numbers](https://github.com/SciML/PoissonRandom.jl)
+- [AutoOffload.jl: Automatic GPU, TPU, FPGA, Xeon Phi, Multithreaded, Distributed, etc. offloading](https://github.com/SciML/AutoOffload.jl)
+
+# Developer Documentation
+
+Please see [the developer documentation](http://devdocs.sciml.ai/latest/)
+for information on getting started with developing in the SciML organization.
+Please see [Colprac](https://github.com/SciML/ColPrac) for the community
+development practices.
+
+# External Tutorials and Teaching Materials
+
+- [MIT 18.337J/6.338J: Parallel Computing and Scientific Machine Learning](https://github.com/mitmath/18337)
+- [MIT 6.S083/18.S190: Computational thinking with Julia + application to the COVID-19 pandemic](https://github.com/mitmath/6S083)
+- [MIT 18.S096 Special Subject in Mathematics: Applications of Scientific Machine Learning](https://github.com/mitmath/18S096SciML)
+- [Various implementations of the classical SIR model in Julia](https://github.com/epirecipes/sir-julia)
+- [Programming for Mathematical Applications](https://robertsweeneyblanco.github.io/Programming_for_Mathematical_Applications/home.html)
+
+# External Applications Libraries
+
+There are many external libraries which connect and utilize SciML
+utilities under the hood. The following an incomplete list of software
+organizations providing domain modeling tools that are built upon
+SciML. If you would like your institution's tools added to the list,
 [please open a pull request](https://github.com/SciML/sciml.ai).
 
-## Press Releases
-
-- [Cornell Chronicle: Digital ‘virus’ helps researchers map potential spread](https://news.cornell.edu/stories/2020/05/digital-virus-helps-researchers-map-potential-spread)
-- [Phys.org: Digital 'virus' helps researchers map potential spread](https://phys.org/news/2020-05-digital-virus-potential.html)
-- [latronet.gr: ?a?t????f?s? e??p??s?? CoViD-19 µe ????t? t???f???](https://www.iatronet.gr/eidiseis-nea/epistimi-zwi/news/55544/psifiakos-ios-voitha-erevnites-na-xartografisoyn-pithani-exaplwsi-covid-19.html)
-- [ZDNet: Could a neural network have predicted this pandemic’s impact?](https://www.zdnet.com/article/could-a-neural-network-have-predicted-this-pandemics-impact/)
-- [UQ News: A mathematical framework could help safely ease social distancing](https://www.uq.edu.au/news/article/2020/05/mathematical-framework-could-help-safely-ease-social-distancing)
-- [MIT News: Model quantifies the impact of quarantine measures on Covid-19’s spread](http://news.mit.edu/2020/new-model-quantifies-impact-quarantine-measures-covid-19-spread-0416)
-- [TechXplore: Machine learning algorithm quantifies the impact of quarantine measures on COVID-19's spread](https://techxplore.com/news/2020-04-machine-algorithm-quantifies-impact-quarantine.html)
-- [COVID-19 simulator could help track virus spread as restrictions eased](https://www.theage.com.au/national/queensland/covid-19-simulator-could-help-track-virus-spread-as-restrictions-eased-20200506-p54qfr.html)
-- [Pfizer uses Julia (SciML) to accelerate simulations of new therapies for metabolic diseases up to 175x](https://juliacomputing.com/case-studies/pfizer.html)
-- [The Brazilian National Institute for Space Research (INPE) plans space missions with SciML](https://juliacomputing.com/case-studies/BrazilNationalinstituteforspaceResearch.html)
-- [JaxEnter: Machine learning meets math: Solve differential equations with new Julia library](https://jaxenter.com/julia-machine-learning-library-154880.html)
-- [Julia (SciML) is awarded funded through the ARPA-E DIFFERENTIATE Program](https://discourse.julialang.org/t/arpa-e-differentiate-program/31316)
-- [The Federal Reserve Bank of New York publishes its trademark Dynamic Stochastic General Equilibrium models in Julia and utilizes SciML tooling](https://juliacomputing.com/case-studies/ny-fed.html)
-
-## Books
-
-- [The Koopman Operator in Systems and Control](https://www.springer.com/gp/book/9783030357122)
-    - "All simulations have been performed in Julia, with additional Julia packages: LinearAlgebra.jl, Random.jl, Plots.jl, Lasso.jl, DifferentialEquations.jl"
-
-## Media
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLI0mn-Oiwrl4j_ZgkJg1h5wOaQlXsSY3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-## External Blog Posts and Presentations
-
-- [Frank Schäfer: GSoC 2020: High weak order SDE solvers and their utility in neural SDEs](https://frankschae.github.io/post/gsoc2020-high-weak-order-solvers-sde-adjoints/)
-- [Kevin Hannay: Differential Equations as a Neural Network Layers](https://towardsdatascience.com/differential-equations-as-a-neural-network-layer-ac3092632255)
-- [Safe Blues — The Measurement Tool for Responsible Easing of Social Distancing](https://medium.com/@yoni_26949/safe-blues-the-measurement-tool-for-responsible-undoing-of-social-distancing-34079464db43)
-- [Per-Olof Persson and Robert Sweeney Blanco: The DifferentialEquations Package](https://robertsweeneyblanco.github.io/Programming_for_Mathematical_Applications/Differential_Equations/DifferentialEquations_Package.html)
-- [Phylodynamics of SARS-CoV-2, Simon Frost (Microsoft Health Futures)](https://sdwfrost.github.io/idp-phylodynamics/#/section)
-- [Nicolau Leal Werneck: Fitting the SIR model to Covid-19 fatality data](http://nic.hpavc.net/almoxarifado/sirfit.html)
-- [SIR Model for COVID-19: Estimating R0, Roberto Berwa, MIT](https://nextjournal.com/berwa/sir-model-for-covid-19-estimating-R_o)
-- [StochasticLifestyle: How To Train Interpretable Neural Networks That Accurately Extrapolate From Small Data](https://www.stochasticlifestyle.com/how-to-train-interpretable-neural-networks-that-accurately-extrapolate-from-small-data/)
-- [Awesome Julia: A nice list of resources to start from](www.github.com/SubhadityaMukherjee/awesomeJulia)
-- [Machine Learning aided Epidemiology: COVID-19 Global quarantine strength and reproduction number evolution](https://covid19ml.org/)
-- [StochasticLifestyle: How Inexact Models Can Guide Decision Making in Quantitative Systems Pharmacology](https://www.stochasticlifestyle.com/how-inexact-models-can-guide-decision-making-in-quantitative-systems-pharmacology/)
-- [JuliaLang: GSoC and JSoC 2020 Project List](https://julialang.org/blog/2020/05/jsoc-gsoc2020/)
-- [StochasticLifestyle: Recent advancements in differential equation solver software](https://www.stochasticlifestyle.com/recent-advancements-in-differential-equation-solver-software/)
-- [StochasticLifestyle: A Collection of Jacobian Sparsity Acceleration Tools for Julia](https://www.stochasticlifestyle.com/a-collection-of-jacobian-sparsity-acceleration-tools-for-julia/)
-- [Pankaj Mishra: A Summer with Jacobians](https://nextjournal.com/pkj-m/a-summer-with-jacobians)
-- [JuliaLang: Hello @DiffEqBot](https://julialang.org/blog/2019/06/diffeqbot/)
-- [Ludovico: New Surrogates and final plans](https://nextjournal.com/ludoro/new-surrogates-and-final-plans)
-- [Ludovico: More optimization methods and future surrogates](https://nextjournal.com/ludoro/more-optimization-methods-and-future-surrogates)
-- [Ludovico: Surrogate optimization and Sampling](https://nextjournal.com/ludoro/surrogate-optimization-and-sampling)
-- [Toby Driscoll: Matlab vs. Julia vs. Python](https://tobydriscoll.net/blog/matlab-vs.-julia-vs.-python/)
-- [Ludovico: New abstract types: RadialBasis and Kriging.](https://nextjournal.com/ludoro/new-abstract-types-radialbasis-and-kriging)
-- [Ludovico: Bonding-time, or should I say coding time?](https://nextjournal.com/ludoro/bonding-time-or-should-i-say-coding-time)
-- [StochasticLifestyle: The Essential Tools of Scientific Machine Learning (Scientific ML)](https://www.stochasticlifestyle.com/the-essential-tools-of-scientific-machine-learning-scientific-ml/)
-- [StochasticLifestyle: Neural Jump SDEs (Jump Diffusions) and Neural PDEs](https://www.stochasticlifestyle.com/neural-jump-sdes-jump-diffusions-and-neural-pdes/)
-- [MIT Open Courseware: Modern Differential Equations Solver Software: Where We Are and Where We're Headed](https://ocw.mit.edu/courses/mathematics/18-335j-introduction-to-numerical-methods-spring-2019/week-3/MIT18_335JS19_lec6.pdf)
-- [JuliaLang: DiffEqFlux.jl – Julia ?????????](https://julialang.org/blog/2019/04/fluxdiffeq-zh_tw/)
-- [JuliaLang: DiffEqFlux.jl – A Julia Library for Neural Differential Equations](https://julialang.org/blog/2019/01/fluxdiffeq/)
-- [FluxML: Differentiable Control Problems](https://fluxml.ai/2019/03/05/dp-vs-rl.html)
-- [EpiRecipes: SIR model in Julia using DifferentialEquations](http://epirecip.es/epicookbook/chapters/sir/julia)
-- [Ronan Chagas: The Satellite Toolbox for Julia](https://www.ronanarraes.com/2019/01/the-satellite-toolbox-for-julia/)
-- [StochasticLifestyle: Some State of the Art Packages in Julia v1.0](https://www.stochasticlifestyle.com/some-state-of-the-art-packages-in-julia-v1-0/)
-- [Julia, my new friend for computing and optimization?](https://hal.archives-ouvertes.fr/cel-01830248/document)
-- [JuliaCon 2018: Solving PDEs in Julia](https://nextjournal.com/sosiris-diffeq/pde-2018)
-- [Ronan Chagas: Changes in OrdinaryDiffEq v3](https://www.ronanarraes.com/2018/02/changes-in-ordinarydiffeq-jl-v3/)
-- [Mathieu Besançon: Winter warm-up: toy models for heat exchangers](https://matbesancon.github.io/post/2018-12-27-heat-exchanger/)
-- [Ronan Chagas: Extending the ODE Solutions in Julia by Creating Custom Data Arrays for the Simulations](https://www.ronanarraes.com/2017/02/extending-the-ode-solutions-in-julia-by-creating-custom-data-arrays-for-the-simulations/)
-- [StochasticLifestyle: Why Numba and Cython are not substitutes for Julia](https://www.stochasticlifestyle.com/why-numba-and-cython-are-not-substitutes-for-julia/)
-- [Ronan Chagas: Using julia to simulate systems composed of continuous and discrete parts](https://www.ronanarraes.com/2017/02/using-julia-to-simulate-systems-composed-of-continuous-and-discrete-parts/)
-- [StochasticLifestyle: Solving Systems of Stochastic PDEs and using GPUs in Julia](https://www.stochasticlifestyle.com/solving-systems-stochastic-pdes-using-gpus-julia/)
-- [JuliaLang: GSoC 2017 : A Wrapper for the FEniCS Finite Element Toolbox](https://julialang.org/blog/2017/09/gsoc-fenics/)
-- [JuliaLang: GSoC 2017: Efficient Discretizations of PDE Operators](https://julialang.org/blog/2017/09/gsoc-derivative_operators/)
-- [JuliaLang: NeuralNetDiffEq.jl: A Neural Network solver for ODEs](https://julialang.org/blog/2017/10/gsoc-NeuralNetDiffEq/)
-- [StochasticLifestyle: Some Fun With Julia Types: Symbolic Expressions in the ODE Solver](https://www.stochasticlifestyle.com/fun-julia-types-symbolic-expressions-ode-solver/)
-- [JuliaLang: GSoC 2017: Native Julia second order ODE and BVP solvers](https://julialang.org/blog/2017/11/gsoc-ode/)
-- [Yiannis Simillides blog: FEniCS.jl: Second "Approximate" Month](https://ysimillides.github.io/jekyll/update/2018/07/10/second-evaluation.html)
-- [Yiannis Simillides blog: FEniCS.jl: First "Approximate" Month](https://ysimillides.github.io/jekyll/update/2018/06/08/first-month.html)
-- [Mathieu Besançon: DifferentialEquations.jl - part 2: decision from the model](https://matbesancon.github.io/post/2017-12-20-diffeq-julia2/)
-- [Mathieu Besançon: Getting started with DifferentialEquations.jl](https://matbesancon.github.io/post/2017-12-14-diffeq-julia/)
-- [StochasticLifestyle: A Comparison Between Differential Equation Solver Suites In MATLAB, R, Julia, Python, C, Mathematica, Maple, and Fortran](https://www.stochasticlifestyle.com/comparison-differential-equation-solver-suites-matlab-r-julia-python-c-fortran/)
+- [CliMA: Climate Modeling Alliance](https://clima.caltech.edu/)
+- [QuantumOptics](https://qojulia.org/)
+- [New York Federal Reserve Bank](https://frbny-dsge.github.io/DSGE.jl/latest/)
+- [Julia Robotics](https://juliarobotics.org/)
+- [Pumas-AI: Pharmaceutical Modeling and Simulation](https://pumas.ai/)
+- [Brazilian National Institute for Space Research (INPE)](https://github.com/JuliaSpace/SatelliteToolbox.jl)
+- [CMU+MIT+Citrine: Accelerated Computational Electrochemical Systems Discovery (ACED)](https://www.cmu.edu/aced/)
+- [Los Alamos National Lab: Model Analaysis & Decision Support (MADS)](http://madsjulia.github.io/Mads.jl/)
+- [ModiaSim: Modia.jl](https://github.com/ModiaSim/Modia.jl)
