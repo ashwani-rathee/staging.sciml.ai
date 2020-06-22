@@ -36,7 +36,9 @@ own work added to this list,
 
 ## Media
 
+~~~
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLI0mn-Oiwrl4j_ZgkJg1h5wOaQlXsSY3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+~~~
 
 ## External Blog Posts and Presentations
 
