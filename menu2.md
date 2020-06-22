@@ -29,6 +29,7 @@ research with new methods, architectures, and algorithms which overcome these
 problems while adding the data-driven automatic learning features of modern
 deep learning. Many successes have already been found, with tools like
 [physics-informed neural networks](https://www.sciencedirect.com/science/article/pii/S0021999118307125),
+[universal differential equations](https://arxiv.org/abs/2001.04385),
 [deep BSDE solvers for high dimensional PDEs](https://link.springer.com/article/10.1007%2Fs40304-017-0117-6),
 and [neural surrogates](https://arxiv.org/pdf/2001.08055.pdf) showcasing how
 deep learning can greatly improve scientific modeling practice. At the same time,
