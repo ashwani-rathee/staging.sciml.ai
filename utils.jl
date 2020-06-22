@@ -12,6 +12,7 @@ function hfun_add_redirects()
       pre = ""
     else
       pre = "/" * strip(prepath, '/')
+    end
     s = """
     <!-- REDIRECT - DO NOT MODIFY-->
     <!doctype html>
