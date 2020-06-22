@@ -6,11 +6,9 @@ function hfun_add_redirects()
     name = splitext(n)[1]
     dst = joinpath(basepath, "__site", name * ".html")
     isfile(dst) && continue
-    pre = ""
     prepath = globvar("prepath")
-    if prepath === nothing
-      pre = ""
-    else
+    pre = ""
+    if prepath !== nothing && !isempty(prepath)
       pre = "/" * strip(prepath, '/')
     end
     s = """
