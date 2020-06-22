@@ -14,6 +14,7 @@ own work added to this list,
 
 ## Press Releases
 
+- [Air Force Is Looking At Using Magnetic Fields To Navigate Instead Of GPS And Flight Testing It On F-16s (Algorithms Powered by SciML)](https://www.forbes.com/sites/erictegler/2020/06/12/air-force-gps-magnetic-fields-navigation-f-16/#4ed565db6818)
 - [Cornell Chronicle: Digital ‘virus’ helps researchers map potential spread](https://news.cornell.edu/stories/2020/05/digital-virus-helps-researchers-map-potential-spread)
 - [Phys.org: Digital 'virus' helps researchers map potential spread](https://phys.org/news/2020-05-digital-virus-potential.html)
 - [latronet.gr: Χαρτογράφηση εξάπλωσης CoViD-19 με κινητό τηλέφωνο](https://www.iatronet.gr/eidiseis-nea/epistimi-zwi/news/55544/psifiakos-ios-voitha-erevnites-na-xartografisoyn-pithani-exaplwsi-covid-19.html)
