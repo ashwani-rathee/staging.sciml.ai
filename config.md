@@ -5,7 +5,7 @@ The website_* must be defined for the RSS to work
 -->
 @def website_title = "SciMl"
 @def website_descr = "Website for SciMl Organization"
-@def website_url   = "https:\\sciml.ai"
+@def website_url   = "https://sciml.ai"
 
 @def author = "Staging Team"
 
