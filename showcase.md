@@ -45,6 +45,7 @@ own work added to this list,
 
 ## External Blog Posts and Presentations
 
+- [Francesco Martinuzzi: GSoC week 4: SVD-based Reservoir](https://martinuzzifrancesco.github.io/posts/04_gsoc_week/)
 - [Francesco Martinuzzi: GSoC week 3: Echo State Gaussian Processes](https://martinuzzifrancesco.github.io/posts/03_gsoc_week/)
 - [SCIML: LOGICIELS LIBRES POUR L'APPRENTISSAGE MACHINE SCIENTIFIQUE](https://chimieetjulia.org/e107/news.php?extend.6#)
 - [Fitting the SIR model to Covid-19 fatality data](https://gist.github.com/nlw0/3d80ae106b70704a1aca157a63303ec0)
