@@ -93,6 +93,7 @@ own work added to this list,
 - [Ronan Chagas: Changes in OrdinaryDiffEq v3](https://www.ronanarraes.com/2018/02/changes-in-ordinarydiffeq-jl-v3/)
 - [Mathieu Besançon: Winter warm-up: toy models for heat exchangers](https://matbesancon.github.io/post/2018-12-27-heat-exchanger/)
 - [Ronan Chagas: Extending the ODE Solutions in Julia by Creating Custom Data Arrays for the Simulations](https://www.ronanarraes.com/2017/02/extending-the-ode-solutions-in-julia-by-creating-custom-data-arrays-for-the-simulations/)
+- [UCI Data Science Initiative: A Quick Tour of DifferentialEquations.jl](http://ucidatascienceinitiative.github.io/IntroToJulia/Html/DiffEq)
 - [StochasticLifestyle: Why Numba and Cython are not substitutes for Julia](https://www.stochasticlifestyle.com/why-numba-and-cython-are-not-substitutes-for-julia/)
 - [Ronan Chagas: Using julia to simulate systems composed of continuous and discrete parts](https://www.ronanarraes.com/2017/02/using-julia-to-simulate-systems-composed-of-continuous-and-discrete-parts/)
 - [StochasticLifestyle: Solving Systems of Stochastic PDEs and using GPUs in Julia](https://www.stochasticlifestyle.com/solving-systems-stochastic-pdes-using-gpus-julia/)
