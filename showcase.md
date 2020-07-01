@@ -45,6 +45,7 @@ own work added to this list,
 
 ## External Blog Posts and Presentations
 
+- [Ludovico: From JSOC to GSOC: a new beginning with Surrogates.jl](https://nextjournal.com/ludoro/from-jsoc-to-gsoc-a-new-beginning-with-surrogatesjl/)
 - [Francesco Martinuzzi: GSoC week 4: SVD-based Reservoir](https://martinuzzifrancesco.github.io/posts/04_gsoc_week/)
 - [Francesco Martinuzzi: GSoC week 3: Echo State Gaussian Processes](https://martinuzzifrancesco.github.io/posts/03_gsoc_week/)
 - [SCIML: LOGICIELS LIBRES POUR L'APPRENTISSAGE MACHINE SCIENTIFIQUE](https://chimieetjulia.org/e107/news.php?extend.6#)
