@@ -19,10 +19,10 @@ Everyone in the community must adhere to the [NumFOCUS Code of Conduct](https://
 
 ## Current Steering Council
 
-- Chris Rackauckas (Massachusetts Institute of Technology)
+- [Chris Rackauckas (Massachusetts Institute of Technology)](https://chrisrackauckas.com/)
 - Yingbo Ma (Julia Computing)
-- Samuel Isaacson (Boston University)
-- David Widmann (Uppsala Universitet)
+- [Samuel Isaacson (Boston University)](http://math.bu.edu/people/isaacson/)
+- [David Widmann (Uppsala Universitet)](https://widmann.dev/)
 - Kanav Gupta (IIT Roorkee)
 
 ## Advisory Committee
