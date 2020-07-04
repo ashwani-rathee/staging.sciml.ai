@@ -45,6 +45,7 @@ own work added to this list,
 
 ## External Blog Posts and Presentations
 
+- [Sebastian Callh personal blog: Forecasting the weather with neural ODEs](https://sebastiancallh.github.io/post/neural-ode-weather-forecast/)
 - [Utkarsh's Blog: GSoC Blog: Community Bonding & First Evaluation](https://utkarsh530.github.io/blog/post/gsoc-blog-2/)
 - [Ludovico: From JSOC to GSOC: a new beginning with Surrogates.jl](https://nextjournal.com/ludoro/from-jsoc-to-gsoc-a-new-beginning-with-surrogatesjl/)
 - [Francesco Martinuzzi: GSoC week 4: SVD-based Reservoir](https://martinuzzifrancesco.github.io/posts/04_gsoc_week/)
