@@ -1,6 +1,4 @@
-<div class="box">
-      <! -- "<img src="../assets/sciml-min.svg" alt="SciML">
-      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -17,10 +15,7 @@
    stroke-linejoin="round"
    clip-rule="evenodd"
    fill-rule="evenodd"
-   align="center" width="512" height="150"
-   viewbox="0 0 1024 300"
-   >
-
+   viewBox="0 0 1024 300">
   <metadata
      id="metadata42">
     <rdf:RDF>
@@ -117,18 +112,3 @@
        d="M311.12 172.86a61.442 61.442 0 00-3-5.625c-4.126-6.5-11.126-12.5-18.75-11-6.876 1.375-10.876 8.25-14.126 14.375-9.875 18.375-20.75 36.375-35.125 51.5s-32.375 27.25-52.75 31.625c-19.25 4.125-40.375-.5-55.875-12.875-22.375-17.875-26.5-49.125-20-75.5-19.5 37.5-2.5 74.125 28.75 90.375 29.75 15.5 65.125 5.625 96.125.5 9.125-1.5 18.25-3 27.125-5.5 17.125-4.75 34-13.375 43.75-28.125 9.75-14.375 11.125-34 3.875-49.75" />
   </g>
 </svg>
-</div>
-<header>
-  <nav>
-  | <a href="/" class="current">Home</a>
-  | <a href="/news/">News</a>
-  | <a href="/roadmap/">Roadmap</a>
-  | <a href="/citing/">Citing</a>
-  | <a href="/governance/">Governance</a>
-  | <a href="/showcase/">Showcase</a>
-  | <a href="/community/">Community</a> <hr/>
-  | <a href="/documentation/">Documentation</a>
-  | <a href="https://benchmarks.sciml.ai/">Benchmarks</a>
-  | <a href="https://github.com/SciML/">Source Code</a>
-  </nav>
-</header>

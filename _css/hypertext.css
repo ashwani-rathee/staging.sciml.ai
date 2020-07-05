@@ -21,3 +21,14 @@ header {
     padding-left: 6%;
     padding-right: 6%; }
   }
+.box{
+ margin:auto;
+ width:auto;
+ height:20vh;
+ background-image:linear-gradient(#7f7fff,#ffffff);
+ text-align:center;
+}
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
